@@ -1,0 +1,66 @@
+/* .first{
+    display: flex ;
+    justify-content: space-between;
+} */
+.first-one{
+
+}
+.first-one h1{
+    color: rgb(180, 7, 180);
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.first-one p{
+    color: gray;
+}
+.first-one button{
+    border: 1px solid purple;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: white;
+}
+.second-form h2{
+    font-weight: bold ;
+}
+.userName{
+
+}
+.email{
+    padding:10px 300px 10px 10px;
+    font-size: 15px;
+}
+.companyName{
+    padding:10px 300px 10px 10px;
+    font-size: 15px;
+}
+.selectCountry{
+    padding:10px 300px 10px 10px;
+    font-size: 15px;
+}
+.number{
+    padding:10px 300px 10px 10px;
+    font-size: 15px;
+}
+.plan{
+    padding:10px 300px 10px 10px;
+    font-size: 15px;
+}
+.requirment{
+    padding:10px 300px 10px 10px;
+    font-size: 15px;
+}
+.but1{
+    background-color: blueviolet;
+    color: whitesmoke;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+.but2{
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
