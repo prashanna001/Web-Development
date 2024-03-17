@@ -44,12 +44,14 @@
 .number input{
     width: 49%;
     height: 35px;
+    
 }
 .plan-one{
     width: 71%;
     height: 40px;
     background-color: white;
     border: 1px solid gray;
+    margin-right: 5px;
 }
 .but1{
     background-color: blueviolet;
