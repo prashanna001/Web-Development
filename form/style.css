@@ -31,9 +31,25 @@
     width: 70%;
     height: 30px;
 }
-.number input{
-    width: 50%;
+.country-one{
+    width: 20%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.select{
+    width: 70%;
     height: 30px;
+}
+.number input{
+    width: 49%;
+    height: 35px;
+}
+.plan-one{
+    width: 71%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid gray;
 }
 .but1{
     background-color: blueviolet;
