@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="docForm">
+            <h1>Patient Registration Form </h1>
+            <div class="mainForm">
+                <form action="" enctype="multipart/form-data" method="post">
+                    <div class="userPassword">
+                       <div class="userName">
+                           <label for="userName">User Name:</label>
+                           <input type="text" placeholder="ram01" name="" id="userName">
+                        </div>
+                        <div class="password">
+                          <label for="password">Password:</label>
+                          <input type="password" name=""  id="password">
+                        </div>
+                    </div><br>
+                    <div class="emailAdderss">
+                       <div class="email">
+                           <label for="email">Email:</label>
+                           <input type="text" placeholder="ram@gmail.com" name="" id="email">
+                        </div>
+                        <div class="address">
+                           <label for="address">Address:</label>
+                           <input type="text" name="" id="address">
+                        </div>
+                    </div><br>
+                    <div class="dateTime">
+                       <div class="visitDate">
+                           <label for="visitDate">Visit Date:</label>
+                           <input type="date" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" id="visitDate">
+                       </div>
+                        <div class="time">
+                           <label for="time">Visit Time:</label>
+                           <input type="time" id="time">
+                       </div>
+                    </div><br>
+                    <div class="symptoms">
+                        <label for="symptoms">Symptoms:</label>
+                        <input type="checkbox" name="headache" id="symptoms">Headache
+                        <input type="checkbox" name="swelling" id="symptoms">Swelling
+                        <input type="checkbox" name="fever" id="symptoms">Fever
+                        <input type="checkbox" name="cough" id="symptoms">Cough
+                        <input type="checkbox" name="eyeBurn" id="symptoms">Eye Burn
+                    </div><br>
+                    <div class="doctorType">
+                       <div class="doctor">
+                           <label for="doctor">Doctors</label>
+                           <select name="doctor" id="doctor">
+                            <option value="chooseOne">--Choose One--</option>
+                            <option value="doctorOne">Bhagawan Koirala</option>
+                            <option value="doctorTwo">Sanduk Ruit</option>
+                            <option value="doctorThree"> Hem Bahadur Malla</option>
+                           </select>
+                       </div>
+                       <div class="caseType">
+                           <label for="caseType">Case Type:</label>
+                           <input type="radio" name="caseType">Normal
+                           <input type="radio" name="caseType">Emergency
+                       </div>
+                   </div><br>
+                    <div class="but">
+                        <button>Save</button>
+                        <button  type="reset">Clear</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

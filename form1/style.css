@@ -1,0 +1,50 @@
+.docForm {
+    color: rgb(241, 239, 153);
+    font-family: cursive;
+    /* background-color: black; */
+    background-image: url(./img/2.avif);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: center;
+}
+.docForm{
+    margin: 50px;
+}
+.docForm h1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 50px 310px 0px ;
+
+}
+.mainForm{
+    padding: 0px 350px 20px;
+}
+.userPassword{
+    display: flex;
+    justify-content: space-between;
+}
+.emailAdderss{
+    display: flex;
+    justify-content: space-between;
+}
+.email input{
+    width: 210px;
+}
+.dateTime{
+    display: flex;
+    justify-content: space-between;
+}
+.doctorType{
+    display: flex;
+    justify-content: space-between;
+}
+.but{
+    padding-left: 200px;
+}
+.but button{
+    /* background-color: rgb(11, 149, 204); */
+    /* color: khaki; */
+    border: 1px solid ;
+    border-radius: 25px;
+    padding: 10px 20px ;
+}
