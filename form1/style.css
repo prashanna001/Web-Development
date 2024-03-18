@@ -33,8 +33,9 @@
     border-radius: 10px;
 }
 .password{
-    padding-right: 10px;
+    padding-right: 5px;
 }
+
 .emailAdderss{
     display: flex;
     justify-content: space-between;
