@@ -1,7 +1,6 @@
 .docForm {
     color: rgb(241, 239, 153);
     font-family: cursive;
-    /* background-color: black; */
     background-image: url(./img/2.avif);
     background-repeat: no-repeat;
     background-size:contain ;
@@ -23,12 +22,34 @@
     display: flex;
     justify-content: space-between;
 }
+.userName input{
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.password input{
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
 .emailAdderss{
     display: flex;
     justify-content: space-between;
 }
 .email input{
     width: 210px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.address input{
+    width: 185px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.address{
+    padding-right: 5px;
 }
 .dateTime{
     display: flex;
@@ -38,13 +59,39 @@
     display: flex;
     justify-content: space-between;
 }
+.visitDate input{
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.time input{
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.time{
+    padding-right: 70px;
+}
+.doctor select{
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.symptoms input{
+    color: black;
+}
 .but{
     padding-left: 200px;
 }
 .but button{
+    background: none;
     /* background-color: rgb(11, 149, 204); */
     /* color: khaki; */
     border: 1px solid ;
     border-radius: 25px;
     padding: 10px 20px ;
+}
+.but :hover{
+    background-color: darkgray;
 }
