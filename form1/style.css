@@ -1,7 +1,7 @@
 .docForm {
     color: rgb(241, 239, 153);
     font-family: cursive;
-    background-image: url(./img/2.avif);
+    background-image: url(../img/2.avif);
     background-repeat: no-repeat;
     background-size:contain ;
     background-position: center;
@@ -12,7 +12,7 @@
 .docForm h1{
     font-size: 50px;
     font-weight: bolder;
-    padding: 50px 310px 0px ;
+    padding: 50px 313px 0px ;
 
 }
 .mainForm{
@@ -32,6 +32,9 @@
     border: 1px solid black;
     border-radius: 10px;
 }
+.password{
+    padding-right: 10px;
+}
 .emailAdderss{
     display: flex;
     justify-content: space-between;
@@ -47,9 +50,6 @@
     background: none;
     border: 1px solid black;
     border-radius: 10px;
-}
-.address{
-    padding-right: 5px;
 }
 .dateTime{
     display: flex;
@@ -70,7 +70,7 @@
     border-radius: 10px;
 }
 .time{
-    padding-right: 70px;
+    padding-right: 80px;
 }
 .doctor select{
     background: none;
